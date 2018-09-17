@@ -10,9 +10,11 @@ const [
 const operand1 = parseInt(operand1String);
 const operand2 = parseInt(operand2String);
 
+const add = (a, b) => a + b;
+
 switch (operation) {
   case '+':
-    console.log(operand1 + operand2);
+    console.log(add(operand1, operand2));
     break;
   default:
     throw new Error('Unknown operation');
