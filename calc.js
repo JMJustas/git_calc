@@ -11,7 +11,7 @@ const operand1 = parseInt(operand1String);
 const operand2 = parseInt(operand2String);
 
 const add = (a, b) => a + b;
-const sub = (a, b) => a + b;
+const sub = (a, b) => a - b;
 
 switch (operation) {
   case '+':
